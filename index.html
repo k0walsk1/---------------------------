@@ -12,28 +12,35 @@
     <!-- font-family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
+    <img src="images/img/bg-hero-img.png" alt="задний фон" class="bg-hero-img">
+
     <!-- header START-->
     <header class="header">
         <section class="header__section">
-            <div class="header__logo">
-                <img src="images/icons/logo.svg" alt="icon-logo" class="logo__img">
-            </div>
+            <div class="header__section-rigth">
+                <div class="header__logo">
+                    <img src="images/icons/logo.svg" alt="иконка логотипа" class="logo__img">
+                </div>
 
-            <nav class="header__nav">
-                <ul class="header__nav-list">
-                    <li><a class="header__nav-link" href="#">КАТАЛОГ</a></li>
-                    <li><a class="header__nav-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
-                    <li><a class="header__nav-link" href="#">О НАС</a></li>
-                    <li><a class="header__nav-link" href="#">КОНТАКТЫ</a></li>
-                    <li><a class="header__nav-link" href="#">FAQ</a></li>
-                    <li><a class="header__nav-link search" href="#"><img src="images/icons/search.svg" alt="icon-search" class="header__icon-search"> ПОИСК</a></li>
-                </ul>
-            </nav>    
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li><a class="header__nav-link" href="#">КАТАЛОГ</a></li>
+                        <li><a class="header__nav-link" href="#">ДОСТАВКА И ОПЛАТА</a></li>
+                        <li><a class="header__nav-link" href="#">О НАС</a></li>
+                        <li><a class="header__nav-link" href="#">КОНТАКТЫ</a></li>
+                        <li><a class="header__nav-link" href="#">FAQ</a></li>
+                        <li><a class="header__nav-link search" href="#"><img src="images/icons/search.svg" alt="icon-search"
+                                    class="header__icon-search"> ПОИСК</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="header__contact-info">
                 <div class="header__contact-info-top">
                     <a href="mailto:zakaz@loverflower.by" class="header__contact-info-email">zakaz@loverflower.by</a>
@@ -48,9 +55,40 @@
     </header>
     <!-- header END-->
 
-    <!-- main START -->
+    <!-- hero -->
+    <section class="hero__section">
+        <h1 class="hero__title">lover</h1>
+        <div class="hero__content">
+            <h1 class="hero__title">Flower</h1>
+            <p class="hero__description">Создаём для тех, кто ценит свежесть и изящество цветка</p>
+            <button type="submit" class="hero__btn">смотреть каталог</button>
+        </div>
+        <div class="hero__contact-info">
+            <div class="hero__contact-info-top">
+                <a href="#" class="hero__contact-info-link"><img src="images/icons/inst.svg" alt="icon-inst" class="hero__contact-info-link-img"></a>
+                <a href="tel:+375 (29) 113-69-69" class="hero__contact-info-link"><img src="images/icons/whatsApp.svg" alt="" class="hero__contact-info-link-img"></a>
+                <a href="#" class="hero__contact-info-link"><img src="images/icons/tel.svg" alt="" class="hero__contact-info-link-img"></a>
+            </div>
+            <div class="hero__contact-info-bottom">
+                <div class="hero__contact-info-block">
+                    <a href="tel:+375 (29) 113-69-69" class="hero__contact-info-tel">+375 (29) 113-69-69</a>
+                    <button class="hero__contact-info-btn"><img src="images/icons/mdi-light_phone.svg" alt="иконка телефона" class="hero__contact-info-icon_tel"> заказать звонок</button>
+                </div>
+                <div class="hero__contact-info-cart">
+                    <a href="#" class="hero__contact-info-cart-link"><img src="images/icons/cart.svg" alt="иконка карзины" class="hero__contact-info-cart-img"></a>
+                </div>
+            </div>
+        </div>
+        <img src="images/img/hero-img-flower.png" alt="передний фон" class="hero-img-flower">
+        <span class="hero__color-spot-blue"></span>
+        <span class="hero__color-spot-pink"></span>
+    </section>
 
+    <!-- main START -->
+    <main class="main">
+    </main>
     <!-- main END -->
+
 
 </body>
 
