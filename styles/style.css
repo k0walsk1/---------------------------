@@ -7,6 +7,9 @@
 }
 body{
     background: rgb(40, 40, 40);
+    max-width: 2000px;
+    margin: 0 auto;
+    position: relative;
 }
 /* header START */
 .header{
@@ -215,10 +218,160 @@ body{
 .hero__contact-info-bottom{
     gap: 20px;
 }
-
+.hero__rectangle{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 660px;
+    background: linear-gradient(180.00deg, rgba(4, 10, 10, 0),rgb(4, 10, 10) 100%);
+}
+.hero__rectangle-img{
+    padding-top: 405px;
+    padding-left: 1015px;
+}
 /* main START */
 .main{
     max-width: 1110px;
     margin: 0 auto;
 }
+    /* katalog block */
+.katalog{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 220px;
+}
+.katalog__title{
+    color: rgb(255, 255, 255);
+    font-family: Cormorant;
+    font-size: 100px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.katalog__blok-text{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 540px;
+}
+.katalog__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px;
+    overflow-y: hidden;
+}
+
+.katalog__blok {
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(0, 0, 0, 0.2);
+    
+}
+.katalog__blok:nth-child(1) {
+    transform: translateX(90px) ;
+    background: none repeat scroll 0; 
+    border-radius: none;
+    backdrop-filter: none;
+    width: 540px;
+    padding: 20px 0 0 ;
+}
+.katalog__blok:nth-child(2) {
+    transform: translateX(90px) translateY(20px);
+    width: 445px;
+}
+.katalog__blok:nth-child(3) {
+    transform: translateX(0px) translateY(-70px);
+}
+.katalog__blok:nth-child(4) {
+    height: 266px;
+    transform: translateY(10px);
+}
+.katalog__blok-title{
+    color: rgb(67, 255, 210);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 270px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.katalog__blok-list{
+    padding-bottom: 25px;   
+}
+.katalog__blok-list-item{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    list-style-position: inside;
+}
+.katalog__blok-btn{
+    color: rgb(217, 120, 172);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: end;
+}
+
+.katalog__color-spot-blue{
+    position: absolute;
+    width: 879.44px;
+    height: 211.05px;
+    left: 700px;
+    top: 1900px;
+    transform: rotate(32.83deg);
+    filter: blur(100px);
+    background: rgb(36, 148, 121);
+    z-index: -2;
+}
+
+.katalog__color-spot-pink{
+    position: absolute;
+    width: 707.54px;
+    height: 236.87px;
+    left: -100px;
+    top: 1850px;
+    transform: rotate(32.83deg);
+    filter: blur(100px);
+    background: rgb(125, 34, 83);
+    z-index: -2;
+}
+.katalog__bg-text{
+    color: rgb(10, 23, 23);
+    font-size: 200px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: -3;
+}
+.bouquets{
+    width: 719px;
+    height: 296px;
+    left: 820px;
+    top: 1455px;
+}
+.flowers{
+    width: 632px;
+    height: 296px;
+    left: -28px;
+    top: 1690px;
+}
+.additionally{
+    width: 1622px;
+    height: 200px;
+    left: 690px;
+    top: 1883px;
+}
+
+    /* top-bouquets */
+
+
 /* main END */
