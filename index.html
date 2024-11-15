@@ -8,6 +8,7 @@
 
     <!-- style -->
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- font-family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,8 +37,8 @@
                         <li><a class="header__nav-link" href="#">О НАС</a></li>
                         <li><a class="header__nav-link" href="#">КОНТАКТЫ</a></li>
                         <li><a class="header__nav-link" href="#">FAQ</a></li>
-                        <li><a class="header__nav-link search" href="#"><img src="images/icons/search.svg" alt="icon-search"
-                                    class="header__icon-search"> ПОИСК</a></li>
+                        <li><a class="header__nav-link search" href="#"><img src="images/icons/search.svg"
+                                    alt="icon-search" class="header__icon-search"> ПОИСК</a></li>
                     </ul>
                 </nav>
             </div>
@@ -65,17 +66,22 @@
         </div>
         <div class="hero__contact-info">
             <div class="hero__contact-info-top">
-                <a href="#" class="hero__contact-info-link"><img src="images/icons/inst.svg" alt="icon-inst" class="hero__contact-info-link-img"></a>
-                <a href="tel:+375 (29) 113-69-69" class="hero__contact-info-link"><img src="images/icons/whatsApp.svg" alt="" class="hero__contact-info-link-img"></a>
-                <a href="#" class="hero__contact-info-link"><img src="images/icons/tel.svg" alt="" class="hero__contact-info-link-img"></a>
+                <a href="#" class="hero__contact-info-link"><img src="images/icons/inst.svg" alt="icon-inst"
+                        class="hero__contact-info-link-img"></a>
+                <a href="tel:+375 (29) 113-69-69" class="hero__contact-info-link"><img src="images/icons/whatsApp.svg"
+                        alt="" class="hero__contact-info-link-img"></a>
+                <a href="#" class="hero__contact-info-link"><img src="images/icons/tel.svg" alt=""
+                        class="hero__contact-info-link-img"></a>
             </div>
             <div class="hero__contact-info-bottom">
                 <div class="hero__contact-info-block">
                     <a href="tel:+375 (29) 113-69-69" class="hero__contact-info-tel">+375 (29) 113-69-69</a>
-                    <button class="hero__contact-info-btn"><img src="images/icons/mdi-light_phone.svg" alt="иконка телефона" class="hero__contact-info-icon_tel"> заказать звонок</button>
+                    <button class="hero__contact-info-btn"><img src="images/icons/mdi-light_phone.svg"
+                            alt="иконка телефона" class="hero__contact-info-icon_tel"> заказать звонок</button>
                 </div>
                 <div class="hero__contact-info-cart">
-                    <a href="#" class="hero__contact-info-cart-link"><img src="images/icons/cart.svg" alt="иконка карзины" class="hero__contact-info-cart-img"></a>
+                    <a href="#" class="hero__contact-info-cart-link"><img src="images/icons/cart.svg"
+                            alt="иконка карзины" class="hero__contact-info-cart-img"></a>
                 </div>
             </div>
         </div>
@@ -83,12 +89,11 @@
         <span class="hero__color-spot-blue"></span>
         <span class="hero__color-spot-pink"></span>
 
-        
+
     </section>
     <div class="hero__rectangle">
         <img src="images/img/lover flower.png" alt="роспись названия" class="hero__rectangle-img">
-    </div>    
-
+    </div>
 
     <!-- main START -->
     <main class="main">
@@ -99,7 +104,8 @@
             <div class="katalog__content">
                 <div class="katalog__blok">
                     <p class="katalog__blok-text">
-                        У нас самый большой выбор цветов, букетов, открыток и подарков. Мы всегда поможем вам подобрать букет для вашего события, наш менеджер вас проконсультирует и поможет определиться с выбором.
+                        У нас самый большой выбор цветов, букетов, открыток и подарков. Мы всегда поможем вам подобрать
+                        букет для вашего события, наш менеджер вас проконсультирует и поможет определиться с выбором.
                         <br><br>
                         Ознакомьтесь с нашими разделами каталога.
                     </p>
@@ -140,16 +146,148 @@
             <span class="katalog__color-spot-pink"></span>
 
 
-            <span class="katalog__bg-text bouquets">букеты</span>
+            <span class="katalog__bg-text bouquet">букеты</span>
             <span class="katalog__bg-text flowers">Цветы</span>
             <span class="katalog__bg-text additionally">дополнительно</span>
         </section>
-        
+
+        <!-- bouquets block -->
         <section class="bouquets">
+            <h1 class="bouquets__title">Популярные</h1>
+            <div class="bouquets__wrapper">
+                <h1 class="bouquets__un-title">букеты</h1>
+                <p class="bouquets__text">Самые любимые композиции наших клиентов</p>
+            </div>
+
+            <!-- slider -->
+            <div class="slider__wrapper">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <span class="bouquets__mark pink">new</span>
+                            <img src="images/img/slider-flower 1.png" alt="swiper-slide__image"
+                                class="swiper-slide__image">
+                            <h1 class="card-flower__title">Лучший день</h1>
+                            <p class="card-flower__coast">3.999 ₽</p>
+                            <button class="card-flower__btn" type="submit">В корзину</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img/slider-flower 2.png" alt="swiper-slide__image"
+                                class="swiper-slide__image">
+                            <h1 class="card-flower__title">Лучший день</h1>
+                            <p class="card-flower__coast">21.000 ₽</p>
+                            <button class="card-flower__btn" type="submit">В корзину</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <span class="bouquets__mark green">sale</span>
+                            <img src="images/img/slider-flower 3.png" alt="swiper-slide__image"
+                                class="swiper-slide__image">
+                            <h1 class="card-flower__title">Лучший день</h1>
+                            <div class="card-coast__sale-line">
+                                <p class="card-flower__coast">14.000 ₽</p>
+                                <p class="card-flower__coast sale">17.000 ₽</p>
+                            </div>
+                            <button class="card-flower__btn" type="submit">В корзину</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img/slider-flower 2.png" alt="swiper-slide__image"
+                                class="swiper-slide__image">
+                            <h1 class="card-flower__title">Лучшая ночь</h1>
+                            <p class="card-flower__coast">5.000 ₽</p>
+                            <button class="card-flower__btn" type="submit">В корзину</button>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/img/slider-flower 2.png" alt="swiper-slide__image"
+                                class="swiper-slide__image">
+                            <h1 class="card-flower__title">Розы</h1>
+                            <p class="card-flower__coast">16.000 ₽</p>
+                            <button class="card-flower__btn" type="submit">В корзину</button>
+                        </div>
+                    </div>
+                    <div class="swiper__arrows">
+                        <div class="swiper-button-next">
+                            <img src="images/icons/Arrow-slider-next.png" alt="slider-arrow-next"
+                                class="slider-arrow-next">
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img src="images/icons/Arrow-slider-prev.png" alt="slider-arrow-prev"
+                                class="slider-arrow-prev">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="bouquets-btn">Смотреть весь каталог <img src="images/icons/Arrow.png" alt="arrow"></a>
+
+            <span class="bouquets__color-spot-blue"></span>
+            <span class="bouquets__color-spot-pink"></span>
+        </section>
+        <img class="bouquets__bg-slider" src="images/img/bg-slider-block.png" alt="bg-slider-block">
+
+        <!-- order block -->
+        <section class="order">
+            <h1 class="order__title">как сделать <br> заказ</h1>
+            <img class="order__flower-img" src="images/img/flowers-order-block.png" alt="flowers-order-block">
+            <div class="order__wrapper">
+                <span class="order__horizontal-line"></span>
+                <div class="order__steps">
+                    <div class="steps-one">
+                        <div class="step">
+                            <h3 class="order__step-title">1 шаг</h3>
+                            <p class="order__step-text">выберите какие цветы или подарки вы хотите купить</p>
+                        </div>
+                        <div class="step">
+                            <h3 class="order__step-title">2 шаг</h3>
+                            <p class="order__step-text">Оформите заказ, и мы отправим вам подтверждение на электронную почту, а так же менеджер свяжется с вами по телефону или в WhatsApp</p>
+                        </div>
+                        <div class="step">
+                            <h3 class="order__step-title">3 шаг</h3>
+                            <p class="order__step-text">Наши флористы бережно подойдут к созданию букета цветов в самом начале дня или накануне</p>
+                        </div>
+                    </div>
+                    <div class="steos-second">
+                        <div class="step">
+                            <h3 class="order__step-title">4 шаг</h3>
+                            <p class="order__step-text">Один из наших курьеров или партнёров доставит ваш заказ по указанному адресу. Мы отправим вам сообщение в Whats App как только заказ будет доставлен</p>
+                        </div>
+                        <div class="step">
+                            <h3 class="order__step-title">5 шаг</h3>
+                            <p class="order__step-text">Наслаждайтесь цветами , если вы заказали их для дома или любовью, которой поделились, если вы заказали для друга</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+            <span class="order__vertikal-line"></span>
+            <img class="order__rectangle-img" src="images/img/lover flower.png" alt="lover flower">
+        </section>
+
+        <!-- special occasion -->
+        <section class="">
+
+            <span class="__color-spot-pink"></span>
+        </section>
+
+        <!-- forma -->
+        <section class="forma">
+
+        </section>
+
+        <!-- social -->
+        <section class="social">
+
         </section>
     </main>
     <!-- main END -->
+
+    <!-- footer START -->
+    <footer class="footer">
+
+    </footer>
+    <!-- footer END -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
 
 
 </body>
