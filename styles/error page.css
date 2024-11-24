@@ -47,6 +47,8 @@
 .order{
     padding-left: 50px;
     padding-top: 400px;
+    position: relative;
+    z-index: 2;
 }
 .payment__content-wrapper{
     padding-left: 715px;
