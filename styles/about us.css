@@ -1,0 +1,7 @@
+.links-to{
+    padding-top: 35px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
