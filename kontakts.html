@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Конта</title>
+    <title>Контакты</title>
 
     <!-- style -->
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/successful payment.css">
-    <link rel="stylesheet" href="./styles/about us.css">
+    <link rel="stylesheet" href="./styles/kontakts.css">
+    
 
     <!-- font-family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,32 +56,82 @@
 
     <!-- main START -->
     <main class="main">
-        <section class="about">
+        <section class="contacts">
             <section class="links-to">
                 <a href="index.html">главная</a>
                 /
                 <a href="#">Контакты</a>
             </section>
-            <section class="">
-
-
-                
+            <section class="contacts-info">
+                <h1 class="contacts-info__title">Контакты</h1>
+                <div class="contacts-info__bloks">
+                    <div class="contacts-info__block">
+                        <h3 class="titles-contact">время работы</h3>
+                        <p class="contacts-info__block-description">
+                            с 10:00 до 21:00 <br> без ВЫХОДНЫХ
+                        </p>
+                    </div>
+                    <div class="contacts-info__block">
+                        <h3 class="titles-contact">адрес</h3>
+                        <p class="contacts-info__block-description">
+                            г.Минск, ул. Тимирязева <br> 67, комн. 112
+                        </p>
+                    </div>
+                    <div class="contacts-info__block">
+                        <h3 class="titles-contact">телефон</h3>
+                        <a href="tel:++375291136969" class="contacts-info__block-description">+375 (29) 113-69-69</a>
+                    </div>
+                    <div class="contacts-info__block">
+                        <h3 class="titles-contact">e-mail</h3>
+                        <a href="mailto:zakaz@loverflower.by"
+                            class="contacts-info__block-description">zakaz@loverflower.by</a>
+                    </div>
+                </div>
+                <img src="images/img/contacts-flower.png" alt="contacts-flower" class="contacts-flower-img">
             </section>
 
-            <img src="" alt="" class="flower-about__first-img">
-            <img src="" alt="" class="flower-about__second-img">
-            <img src="" alt="" class="flower-about__third-img">
+            <section class="forma">
+                <div class="forma__container">
+                    <div class="forma__title">
+                        <h1 class="forma__title-first">напишите</h1>
+                        <div class="">
+                            <h1 class="forma__title-second">нам</h1>
+                        </div>
+                    </div>
+                    <div class="forma__wrapper">
+                        <div class="">
+                            <span class="forma__horizontal-line"></span>
+                            <h3 class="forma__text-info">Отправьте ваш вопрос, заказ, предложение или жалобу через форму
+                                обратной связи, и наш специалист свяжется с вами в течение 15 минут.</h3>
+                        </div>
+                        <form action="#" class="forma__form">
+                            <input type="text" class="forma__input" placeholder="Ваше имя" required>
+                            <input type="tel" class="forma__input" placeholder="+7 (977) 777-77-77" required>
+                            <textarea class="forma__textarea" placeholder="Ваш коментарий" required></textarea>
+                        </form>
+                        <button class="forma__btn" type="submit">Отправить</button>
+                        <p class="form__info">
+                            Нажимая на кнопку «Отправить», я даю свое согласие на обработку персональных данных, в
+                            соответствии с
+                            <a class="form__info-link" href="#">Политикой конфиденциальности</a>
+                        </p>
+                    </div>
+                </div>
+                <img src="images/img/send message us.png" alt="send message us" class="forma__smu">
+                <img src="images/img/have any questions(1).png" alt="have any questions" class="forma__haq">
+            </section>
 
-            <img src="images/img/lover-flower-dap .png" alt="" class="lower-flower-img">
+            <section class="contact-map">
+                <h1 class="contact-map__title">мы на карте</h1>
+                <!-- Yandex карта -->
+                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A676b01f0bfd114f9c84e3373b9fb2a930869aa9a6ece902a4fdef046d63968e3&amp;width=1110&amp;height=430&amp;lang=ru_RU&amp;scroll=true"></script>
+            </section>
 
-            <span class="payment__color-spot-yellow-first"></span>
-            <span class="payment__color-spot-yellow-second"></span>
-            <span class="payment__color-spot-yellow-third"></span>
-            <span class="payment__color-spot-yellow-fourth"></span>
-            <span class="payment__color-spot-yellow-fifth"></span>
-            <span class="payment__color-spot-yellow-sixth"></span>
-            <span class="payment__color-spot-yellow-seventh"></span>
-            <span class="payment__color-spot-yellow-eighth"></span>
+            <span class="payment__color-spot-red-first"></span>
+            <span class="payment__color-spot-red-second"></span>
+            <span class="payment__color-spot-red-third"></span>
+            <span class="payment__color-spot-red-fourth"></span>
+            <span class="payment__color-spot-red-fifth"></span>
         </section>
     </main>
     <!-- main END -->

@@ -7,8 +7,10 @@
 }
 body{
     background:rgb(4, 10, 10);
-    max-width: 2000px;
+    position: relative;
+    max-width: 1920px;
     margin: 0 auto;
+    overflow: hidden;
 }
 /* header START */
 .header{
@@ -539,9 +541,6 @@ body{
     right: auto;
 }
 
-swiper__arrows{
-    
-}
     /* order block  */
 .order{
     max-width: 1110px;
@@ -789,6 +788,7 @@ swiper__arrows{
     color: rgb(255, 255, 255);
 }
 .form__info-link{
+    text-decoration: underline;
     color: rgb(217, 120, 172);
 }
 
@@ -831,7 +831,6 @@ swiper__arrows{
     z-index: 3;
     left: 470px;
     top: 5600px;
-    transform: rotate(-18.44deg);
 }
     /* social */
 

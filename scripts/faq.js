@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
         if (!isOpen) {
           answer.classList.add("open");
-          toggle.textContent = "−";
+          toggle.textContent = "-";
         } else {
           answer.classList.remove("open");
           toggle.textContent = "+";
