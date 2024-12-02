@@ -1,0 +1,200 @@
+.links-to {
+  padding-top: 35px;
+  padding-bottom: 60px;
+}
+.making-an-order-info {
+  padding-bottom: 80px;
+}
+.making-an-order__title {
+  font-family: Cormorant;
+  font-size: 100px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.making-an-order-info > div {
+  padding-left: 95px;
+}
+
+.making-an-order__form-wrapper {
+  display: flex;
+  /* gap: ; */
+}
+.making-an-order__form-title {
+  color: rgb(67, 255, 210);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* .forma {
+  background: none !important;
+  margin-bottom: 100px;
+}
+.forma__title > div {
+  padding-left: 363px;
+}
+.form__info > .form__info-link {
+  color: rgb(139, 49, 49);
+  font-size: 10px;
+}
+.forma__input,
+.forma__textarea {
+  border: 1px solid rgb(85, 85, 85);
+}
+.forma__smu {
+  position: absolute;
+  left: -650px;
+  top: 195px;
+  z-index: -2;
+}
+.forma__haq {
+  position: absolute;
+  top: 1030px;
+}
+ */
+
+/* Общие стили формы */
+.forma {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.left-form {
+  padding-top: 40px;
+}
+/* Заголовки формы */
+.left-form h1 {
+  margin-bottom: 20px;
+  color: #333;
+  color: rgb(67, 255, 210);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    display: block;
+
+}
+/* Поля ввода */
+.forma__input,
+.forma__textarea {
+    padding: 20px;
+    width: 540px;
+    box-sizing: border-box;
+    border: 1px solid rgb(85, 85, 85);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.forma__input:focus,
+.forma__textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Кнопки */
+.forma__btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.forma__btn:hover {
+  background-color: #0056b3;
+}
+
+/* Выпадающие списки */
+.participant__form-select select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #fff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Секции с радио-кнопками */
+.delivery-info label,
+.payment-info label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.delivery-info input[type="radio"],
+.payment-info input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Общая сумма заказа */
+.all-coast h1 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.all-coast .sale,
+.all-coast .delivery {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Согласие и ссылка на политику */
+.form__info {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form__info-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form__info-link:hover {
+  text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .forma {
+    padding: 15px;
+  }
+
+  .forma h1 {
+    font-size: 20px;
+  }
+
+  .forma__input,
+  .forma__textarea {
+    font-size: 14px;
+  }
+
+  .forma__btn {
+    font-size: 14px;
+  }
+
+  .form__info {
+    font-size: 12px;
+  }
+}

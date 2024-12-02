@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>О нас</title>
+    <title>Оформление заказа</title>
 
     <!-- style -->
     <link rel="stylesheet" href="./styles/successful payment.css" />
-    <link rel="stylesheet" href="./styles/about us.css" />
+    <link rel="stylesheet" href="./styles/making an order.css" />
 
     <!-- font-family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -81,57 +81,161 @@
 
     <!-- main START -->
     <main class="main">
-      <section class="about">
+      <section class="making-an-order">
         <section class="links-to">
           <a href="index.html">главная</a>
           /
-          <a href="#">О нас</a>
+          <a href="#">Оформление заказа</a>
         </section>
-        <section class="about__brief-info">
-          <h1 class="brief-info__title">О нас</h1>
-          <div class="bref-info__block">
-                <h2 class="bref-info__subtitle">
-                    lover <br />
-                    flower
-                </h2>
-                <span class="horizontal-line"></span>
+        <section class="making-an-order-info">
+          <h1 class="making-an-order__title">Оформление</h1>
+          <div>
+            <h1 class="making-an-order__title">заказа</h1>
           </div>
-        </section>
-      </section>
-        <p class="bref-info__text">
-            молодая команда разных людей с одинаковыми ценностями.
-            <br> <br>
-            Мы считаем, что удовольствие от качества длится дольше, чем удовольствие <br>
-            от низкой цены. И поэтому в создание нашей букетерии мы вложили все, <br>
-            чем располагаем: душу, сердце, время и мечты! Мы готовы обещать вам только то, <br>
-            что можем сделать. А делаем мы только самое качественное, самое интересное <br> 
-            и обязательно уникальное. Мы всегда честны со своими клиентами во всем – <br> 
-            в нашем каталоге только те букеты, которые вы действительно сможете купить.
-        </p>
-       <section class="about">
-        <section class="about__guarantees">
-            <h1 class="guarantees__title">гарантии</h1>
-            <p class="guarantees__text">
-                Каждый цветок уникален и чтобы вы были уверены в качестве, мы пришлем вам фотографию именно вашего букета до его отправки получателю. Вся предоставленная Вами информация конфиденциальна и будет известна только нам и курьеру для осуществления доставки.
-            </p>
-        </section>
-
-        <section class="about__order-website">
-            <h1 class="order-website__title">Заказ букетов на <br> сайте компании <br> Lower Flower – это:</h1>
-            <ul class="order-website-list">
-                <li class="order-website-item">выбор оттенков и сортов цветков в любое время года;</li>
-                <li class="order-website-item">отправка фото готовой композиции перед отправкой;</li>
-                <li class="order-website-item">возможность заказать цветы с доставкой в течение часа;</li>
-                <li class="order-website-item">выгодные цены – на сайте только те варианты, что Вы сможете купить;</li>
-                <li class="order-website-item">полная конфиденциальность по заказу;</li>
-                <li class="order-website-item">мы подбираем открытку, воздушные шар, подарок по Вашему желанию;</li>
-                <li class="order-website-item">в нашем уютном цветочном магазине цветы, которые приятно дарить.</li>
-            </ul>
+          <img src="" alt="Lover floWer">
         </section>
         
-        <img src="images/img/about-img.png" alt="" class="flower-about__first-img"/>
-        <img src="images/img/about-img (2).png" alt="" class="flower-about__second-img"/>
-        <img src="images/img/about-img (3).png" alt="" class="flower-about__third-img"/>
+        <section class="making-an-order__form">
+            <h1 class="making-an-order__form-title">Оформление заказа</h1>
+            <div class="making-an-order__form-wrapper">
+                <!-- forma -->
+                <div class="left-form">
+                    <h1 class="left-form__title">контактные данные</h1>
+                    <form action="#" class="contacts-info">
+                        <label for="name">
+                            <label for="name">Ваше имя*</label>
+                            <input name="name" type="text" class="forma__input" placeholder="Введите ваше имя" required>
+                        </label>
+                        <label for="phone">
+                            <label for="phone">Ваш телефон*</label>
+                            <input name="phone" type="tel" class="forma__input" placeholder="+7 (977) 777-77-77" required>
+                        </label>
+                        <label for="e-mail">
+                            <label for="e-mail">Ваше e-mail*</label>
+                            <input name="e-mail" type="text" class="forma__input" placeholder="Введите ваше имя" required>
+                        </label>
+                        <label for="tel-polychat">
+                            <label for="tel-polychat">Телефон получателя (необязательно)</label>
+                            <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите ваше имя" required>
+                        </label>
+                        <label for="tel-polychat">
+                            <label for="tel-polychat">Имя получателя (необязательно)</label>
+                            <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите ваше имя" required>
+                        </label>
+                        <label for="coment">
+                            <label for="coment">Коментарий к заказу</label>
+                            <textarea class="forma__textarea" placeholder="Ваш коментарий" required></textarea>
+                        </label>                    
+                    </form>
+                    <h1 class="">доставка</h1>
+                    <form action="" class="delivery-info">
+                        <label for="sam">
+                            <input type="radio" name="sam" id="">
+                            <p class="">самвывоз</p>
+                        </label>
+                        <label for="kyrer">
+                            <input type="radio" name="kyrer" id="" checked="checked">
+                            <p class="">доставка</p>
+                        </label>
+                        <label for="city">
+                            <label for="city">Город*</label>
+                            <label for="" class="participant__form-select">
+                                <select name="drop_down_list">
+                                  <option value="-">Выберете город</option>
+                                  <option value="Москва">Москва</option>
+                                  <option value="Питер">Питер</option>
+                                  <option value="Минск">Минск</option>
+                                </select>
+                            </label>
+                        </label>
+                        <label for="street">
+                            <label for="street">Улица*</label>
+                            <input name="street" type="text" class="forma__input" placeholder="Введите улицу" required>
+                        </label>
+                        <label for="house">
+                            <div class="">
+                                <label for="house">Корп/стр</label>
+                                <input name="house" type="text" class="forma__input" placeholder="Корп/стр" required>
+                            </div>
+                            <div class="">
+                                <label for="house">Дом</label>
+                                <input name="house" type="text" class="forma__input" placeholder="Дом" required>
+                            </div>
+                            <div class="">
+                                <label for="house">Кв/офис</label>
+                                <input name="house" type="text" class="forma__input" placeholder="Кв/офис" required>
+                            </div>
+                        </label>
+                        <label for="">
+                            <label for="time delivery">Время доствки</label>
+                            <input type="time">
+                        </label>
+
+                        <label for="coast delivery">Стоимость доставки <label for="coast delivery">0</label> ₽</label>
+                    </form>
+                    
+                    <h1 class="">оплата</h1>
+                    <form action="" class="payment-info">
+                        <label for="card">
+                            <input type="radio" name="card" id="" checked="checked">
+                            <p class="">банковская карта</p>
+                        </label>
+                        <label for="cash">
+                            <input type="radio" name="cash" id="">
+                            <p class="">наличными</p>
+                        </label>
+                        <label for="apple pay">
+                            <input type="radio" name="apple pay" id="">
+                            <p class="">наличными</p>
+                        </label>
+                        <label for="google pay">
+                            <input type="radio" name="google pay" id="">
+                            <p class="">наличными</p>
+                        </label>
+                        <label for="cripto">
+                            <input type="radio" name="cripto" id="">
+                            <p class="">наличными</p>
+                        </label>
+                        <label for="checking account">
+                            <input type="radio" name="checking account" id="">
+                            <p class="">с расчетного счета</p>
+                        </label>
+                    </form>
+
+                    <h1 class="">промокод</h1>
+                    <form action="" class="">
+                        <label for="promo">
+                            <input type="text" class="forma__input" placeholder="Промокод">
+                            <button class="forma__btn" type="submit">Применить</button>
+                        </label>
+                    </form>
+
+                    <div class="all-coast">
+                        <h1 class="">Общая сумма заказа <span class="">334.00</span> ₽</h1>
+                        <p class="sale">скидка = <span class="">0</span> ₽</p>
+                        <p class="delivery">доставка = <span class="">0</span> ₽</p></p>
+                    </div>
+
+                    <button class="forma__btn" type="submit">Отправить</button>
+
+                    <p class="form__info">
+                        Нажимая на кнопку «Отправить», я даю свое согласие на обработку персональных данных, в
+                        соответствии с
+                        <a class="form__info-link" href="#">Политикой конфиденциальности</a>
+                    </p>
+                </div>
+                <!-- cart flovers -->
+                <div class="right-cart">
+
+                </div>
+            </div>
+        </section>
+
+
+
+      
+        <img src="" alt="" class="flower-about__first-img"/>
+        <img src="" alt="" class="flower-about__second-img"/>
 
         <span class="about-spot-yellow-first"></span>
         <span class="about-spot-yellow-second"></span>
@@ -140,16 +244,6 @@
         <span class="about-spot-yellow-fifth"></span>
       </section>
     </main>
-        <section class="result">
-            <h1 class="result__title">
-                Природная гармония цвета, неповторимость бутонов <br>
-                и Ваши чувства <br>
-                в нежных лепестках <br>
-                не оставят никого равнодушным <br>
-            </h1>
-            <p class="result__text">Вы выбираете и заказываете цветочный сюрприз, <br> а мы вкладываем в него душу!</p>
-        </section>
-
         
     
     <!-- main END -->
