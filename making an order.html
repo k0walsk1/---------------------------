@@ -95,112 +95,209 @@
           <img src="" alt="Lover floWer">
         </section>
         
-        <section class="making-an-order__form">
-            <h1 class="making-an-order__form-title">Оформление заказа</h1>
-            <div class="making-an-order__form-wrapper">
-                <!-- forma -->
-                <div class="left-form">
-                    <h1 class="left-form__title">контактные данные</h1>
-                    <form action="#" class="contacts-info">
-                        <label for="name">
-                            <label for="name">Ваше имя*</label>
-                            <input name="name" type="text" class="forma__input" placeholder="Введите ваше имя" required>
-                        </label>
-                        <label for="phone">
-                            <label for="phone">Ваш телефон*</label>
-                            <input name="phone" type="tel" class="forma__input" placeholder="+7 (977) 777-77-77" required>
-                        </label>
-                        <label for="e-mail">
-                            <label for="e-mail">Ваше e-mail*</label>
-                            <input name="e-mail" type="text" class="forma__input" placeholder="Введите ваше имя" required>
-                        </label>
-                        <label for="tel-polychat">
-                            <label for="tel-polychat">Телефон получателя (необязательно)</label>
-                            <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите ваше имя" required>
-                        </label>
-                        <label for="tel-polychat">
-                            <label for="tel-polychat">Имя получателя (необязательно)</label>
-                            <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите ваше имя" required>
-                        </label>
-                        <label for="coment">
-                            <label for="coment">Коментарий к заказу</label>
-                            <textarea class="forma__textarea" placeholder="Ваш коментарий" required></textarea>
-                        </label>                    
-                    </form>
-                    <h1 class="">доставка</h1>
-                    <form action="" class="delivery-info">
-                        <label for="sam">
-                            <input type="radio" name="sam" id="">
-                            <p class="">самвывоз</p>
-                        </label>
-                        <label for="kyrer">
-                            <input type="radio" name="kyrer" id="" checked="checked">
-                            <p class="">доставка</p>
-                        </label>
-                        <label for="city">
-                            <label for="city">Город*</label>
-                            <label for="" class="participant__form-select">
-                                <select name="drop_down_list">
-                                  <option value="-">Выберете город</option>
-                                  <option value="Москва">Москва</option>
-                                  <option value="Питер">Питер</option>
-                                  <option value="Минск">Минск</option>
-                                </select>
-                            </label>
-                        </label>
-                        <label for="street">
-                            <label for="street">Улица*</label>
-                            <input name="street" type="text" class="forma__input" placeholder="Введите улицу" required>
-                        </label>
-                        <label for="house">
-                            <div class="">
-                                <label for="house">Корп/стр</label>
-                                <input name="house" type="text" class="forma__input" placeholder="Корп/стр" required>
-                            </div>
-                            <div class="">
-                                <label for="house">Дом</label>
-                                <input name="house" type="text" class="forma__input" placeholder="Дом" required>
-                            </div>
-                            <div class="">
-                                <label for="house">Кв/офис</label>
-                                <input name="house" type="text" class="forma__input" placeholder="Кв/офис" required>
-                            </div>
-                        </label>
-                        <label for="">
-                            <label for="time delivery">Время доствки</label>
-                            <input type="time">
-                        </label>
+        <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Оформление заказа</title>
 
-                        <label for="coast delivery">Стоимость доставки <label for="coast delivery">0</label> ₽</label>
-                    </form>
+    <!-- style -->
+    <link rel="stylesheet" href="./styles/successful payment.css" />
+    <link rel="stylesheet" href="./styles/making an order.css" />
+
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header START-->
+    <header class="header">
+      <section class="header__section">
+        <div class="header__section-rigth">
+          <div class="header__logo">
+            <a href="index.html"
+              ><img
+                src="images/icons/logo.svg"
+                alt="иконка логотипа"
+                class="logo__img"
+            /></a>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li><a class="header__nav-link" href="#">КАТАЛОГ</a></li>
+              <li>
+                <a class="header__nav-link" href="delivery and payment.html"
+                  >ДОСТАВКА И ОПЛАТА</a
+                >
+              </li>
+              <li><a class="header__nav-link" href="#">О НАС</a></li>
+              <li><a class="header__nav-link" href="#">КОНТАКТЫ</a></li>
+              <li><a class="header__nav-link" href="#">FAQ</a></li>
+              <li>
+                <a class="header__nav-link search" href="#"
+                  ><img
+                    src="images/icons/search.svg"
+                    alt="icon-search"
+                    class="header__icon-search"
+                  />
+                  ПОИСК</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contact-info">
+          <div class="header__contact-tel">
+            <img
+              src="images/icons/mdi-light_phone.svg"
+              alt="иконка телефона"
+              class="header__contact-icon"
+            />
+            <a href="tel:+375291136969" class="header__contact-phone"
+              >+375 (29) 113-69-69</a
+            >
+          </div>
+          <div class="header__cart">
+            <a href="#" class="header__cart-link"
+              ><img
+                src="images/icons/cart.svg"
+                alt="иконка карзины"
+                class="header__cart-img"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header END-->
+
+    <!-- main START -->
+    <main class="main">
+      <section class="making-an-order">
+        <section class="links-to">
+          <a href="index.html">главная</a>
+          /
+          <a href="#">Оформление заказа</a>
+        </section>
+        <section class="making-an-order-info">
+          <h1 class="making-an-order__title">Оформление</h1>
+          <div>
+            <h1 class="making-an-order__title">заказа</h1>
+          </div>
+          <img src="" alt="Lover floWer">
+        </section>
+
+        <section class="making-an-order__form">
+          <h1 class="making-an-order__form-title">Оформление заказа</h1>
+          <div class="making-an-order__form-wrapper">
+            <!-- forma -->
+            <div class="left-form">
+              <h1 class="left-form__title">контактные данные</h1>
+              <form action="#" class="contacts-info">
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Ваше имя*</p>
+                  <input name="name" type="text" class="forma__input" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Ваш телефон*</p>
+                  <input name="phone" type="tel" class="forma__input" placeholder="+7 (977) 777-77-77" required>
+                </div>
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Ваше e-mail*</p>
+                  <input name="e-mail" type="text" class="forma__input" placeholder="Введите ваш e-mail" required>
+                </div>
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Телефон получателя (необязательно)</p>
+                  <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите телефон" required>
+                </div>
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Имя получателя (необязательно)</p>
+                  <input name="tel-polychat" type="text" class="forma__input" placeholder="Введите имя" required>
+                </div>
+                <div class="contacts-info__item">
+                  <p class="contacts-info__label">Коментарий к заказу</p>
+                  <textarea class="forma__textarea" placeholder="Ваш коментарий" required></textarea>
+                </div>
+              </form>
+              <h1 class="">доставка</h1>
+              <form action="" class="delivery-info">
+                <div class="delivery-info__item">
+                  <input type="radio" name="sam" id="">
+                  <p class="delivery-info__label">самвывоз</p>
+                </div>
+                <div class="delivery-info__item">
+                  <input type="radio" name="kyrer" id="" checked="checked">
+                  <p class="delivery-info__label">доставка</p>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Город*</p>
+                  <select name="drop_down_list" class="delivery-info__select">
+                    <option value="-">Выберете город</option>
+                    <option value="Москва">Москва</option>
+                    <option value="Питер">Питер</option>
+                    <option value="Минск">Минск</option>
+                  </select>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Улица*</p>
+                  <input name="street" type="text" class="forma__input" placeholder="Введите улицу" required>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Корп/стр</p>
+                  <input name="house" type="text" class="forma__input" placeholder="Корп/стр" required>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Дом</p>
+                  <input name="house" type="text" class="forma__input" placeholder="Дом" required>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Кв/офис</p>
+                  <input name="house" type="text" class="forma__input" placeholder="Кв/офис" required>
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Время доставки</p>
+                  <input type="time" class="delivery-info__time-input">
+                </div>
+                <div class="delivery-info__item">
+                  <p class="delivery-info__label">Стоимость доставки <span class="delivery-info__cost">0</span> ₽</p>
+                </div>
+              </form>
+
+              <h1 class="">оплата</h1>
+              <form action="" class="payment-info">
+                <div class="payment-info__item">
+                  <input type="radio" name="card" id="" checked="checked">
+                  <div class="payment-info__item">
+                    <input type="radio" name="card" id="" checked="checked">
+                    <p class="payment-info__label">банковская карта</p>
+                  </div>
+                  <div class="payment-info__item">
+                    <input type="radio" name="cash" id="">
+                    <p class="payment-info__label">наличными</p>
+                  </div>
+                  <div class="payment-info__item">
+                    <input type="radio" name="apple_pay" id="">
+                    <p class="payment-info__label">Apple Pay</p>
+                  </div>
+                  <div class="payment-info__item">
+                    <input type="radio" name="google_pay" id="">
+                    <p class="payment-info__label">Google Pay</p>
+                  </div>
+                  <div class="payment-info__item">
+                    <input type="radio" name="cripto" id="">
+                    <p class="payment-info__label">криптовалюта</p>
+                  </div>
+                  <div class="payment-info__item">
+                    <input type="radio" name="checking_account" id="">
+                    <p class="payment-info__label">с расчетного счета</p>
+                  </div>
                     
-                    <h1 class="">оплата</h1>
-                    <form action="" class="payment-info">
-                        <label for="card">
-                            <input type="radio" name="card" id="" checked="checked">
-                            <p class="">банковская карта</p>
-                        </label>
-                        <label for="cash">
-                            <input type="radio" name="cash" id="">
-                            <p class="">наличными</p>
-                        </label>
-                        <label for="apple pay">
-                            <input type="radio" name="apple pay" id="">
-                            <p class="">наличными</p>
-                        </label>
-                        <label for="google pay">
-                            <input type="radio" name="google pay" id="">
-                            <p class="">наличными</p>
-                        </label>
-                        <label for="cripto">
-                            <input type="radio" name="cripto" id="">
-                            <p class="">наличными</p>
-                        </label>
-                        <label for="checking account">
-                            <input type="radio" name="checking account" id="">
-                            <p class="">с расчетного счета</p>
-                        </label>
-                    </form>
+                    
 
                     <h1 class="">промокод</h1>
                     <form action="" class="">
